@@ -14,7 +14,7 @@ function render_at_size {
   img_path="${3}"
 
   # animation is turned off as it does werid things with the terminal output
-  chafa --size=80x40 "${img_path}"
+  chafa --size=100x50 "${img_path}"
 }
 
 function draw_preview {
