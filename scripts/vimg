@@ -14,7 +14,7 @@ function render_at_size {
   img_path="${3}"
 
   # animation is turned off as it does werid things with the terminal output
-  chafa chafa --colors=256 --size=642x555 "${img_path}"
+  chafa --colors=256 --size=642x555 "${img_path}"
 }
 
 function draw_preview {
